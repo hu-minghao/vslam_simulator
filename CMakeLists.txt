@@ -10,7 +10,7 @@ include_directories(
     ${Pangolin_INCLUDE_DIRS}
 )
 
-add_executable(vslam_simulator main.cpp viewer.cpp)
+add_executable(vslam_simulator main.cpp src/viewer.cpp)
 
 target_link_libraries(
     vslam_simulator

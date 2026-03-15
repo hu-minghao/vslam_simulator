@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "simulator.h"
-#include "viewer.h"
+#include "src/simulator.h"
+#include "src/viewer.h"
 
 using namespace std;
 
